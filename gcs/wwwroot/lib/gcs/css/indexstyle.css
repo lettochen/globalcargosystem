@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.table th,
+.table td {
+    vertical-align: middle;
+}
+.title-bar {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+}
+
+.system-name {
+    font-weight: bold;
+}
+
+.version-info,
+.office-info,
+.user-info {
+    margin-right: 10px;
+}
+
+.logout a {
+    cursor: pointer;
+    color: red;
+}
+
+.main-menu {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-menu.nav-link {
+    color: #333;
+}
+
+.left-menu {
+    background-color: #f9f9f9;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.main-content {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    color: #666;
+    padding: 5px 10px;
+}
